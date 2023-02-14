@@ -56,7 +56,7 @@ SQL 8
 //////////////////////// //////////////////////////////////
 
 
-Video Demo Link :
+Video Demo & Snapshots Link : https://drive.google.com/drive/folders/1kHkZTgb79nGlwot-v5rDdBNfEwy7MDNn?usp=share_link
 
 Project Live Link : 
 
