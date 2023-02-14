@@ -1,0 +1,49 @@
+Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX17 failed with the following output:
+Change Dir: /Users/vikaspathak/Downloads/MoodMeCPP/build/CMakeFiles/CMakeScratch/TryCompile-6CnRI7
+
+Run Build Command(s):/Users/vikaspathak/.vscode/extensions/powertech.powercpp-23.2.10/thirdparty/bin/ninja cmTC_f3a1b && [1/2] Building CXX object CMakeFiles/cmTC_f3a1b.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_f3a1b.dir/src.cxx.o 
+/usr/bin/clang++ -DABSL_INTERNAL_AT_LEAST_CXX17  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++14 -MD -MT CMakeFiles/cmTC_f3a1b.dir/src.cxx.o -MF CMakeFiles/cmTC_f3a1b.dir/src.cxx.o.d -o CMakeFiles/cmTC_f3a1b.dir/src.cxx.o -c /Users/vikaspathak/Downloads/MoodMeCPP/build/CMakeFiles/CMakeScratch/TryCompile-6CnRI7/src.cxx
+/Users/vikaspathak/Downloads/MoodMeCPP/build/CMakeFiles/CMakeScratch/TryCompile-6CnRI7/src.cxx:6:4: error: "The compiler defaults or is configured for C++ < 17"
+#  error "The compiler defaults or is configured for C++ < 17"
+   ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#ifdef _MSC_VER
+#  if _MSVC_LANG < 201700L
+#    error "The compiler defaults or is configured for C++ < 17"
+#  endif
+#elif __cplusplus < 201700L
+#  error "The compiler defaults or is configured for C++ < 17"
+#endif
+int main() { return 0; }
+
+
+Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX17 failed with the following output:
+Change Dir: /Users/vikaspathak/Downloads/MoodMeCPP/build/CMakeFiles/CMakeScratch/TryCompile-aXE5PL
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_388b3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_388b3.dir/build.make CMakeFiles/cmTC_388b3.dir/build
+Building CXX object CMakeFiles/cmTC_388b3.dir/src.cxx.o
+/usr/bin/clang++ -DABSL_INTERNAL_AT_LEAST_CXX17  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++14 -MD -MT CMakeFiles/cmTC_388b3.dir/src.cxx.o -MF CMakeFiles/cmTC_388b3.dir/src.cxx.o.d -o CMakeFiles/cmTC_388b3.dir/src.cxx.o -c /Users/vikaspathak/Downloads/MoodMeCPP/build/CMakeFiles/CMakeScratch/TryCompile-aXE5PL/src.cxx
+/Users/vikaspathak/Downloads/MoodMeCPP/build/CMakeFiles/CMakeScratch/TryCompile-aXE5PL/src.cxx:6:4: error: "The compiler defaults or is configured for C++ < 17"
+#  error "The compiler defaults or is configured for C++ < 17"
+   ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_388b3.dir/src.cxx.o] Error 1
+make: *** [cmTC_388b3/fast] Error 2
+
+
+Source file was:
+#ifdef _MSC_VER
+#  if _MSVC_LANG < 201700L
+#    error "The compiler defaults or is configured for C++ < 17"
+#  endif
+#elif __cplusplus < 201700L
+#  error "The compiler defaults or is configured for C++ < 17"
+#endif
+int main() { return 0; }
+
+

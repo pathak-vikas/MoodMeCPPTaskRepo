@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -dynamiclib -Wl,-headerpad_max_install_names -o ../../../lib/libabsl_strerror.dylib -install_name @rpath/libabsl_strerror.dylib CMakeFiles/absl_strerror.dir/internal/strerror.cc.o 

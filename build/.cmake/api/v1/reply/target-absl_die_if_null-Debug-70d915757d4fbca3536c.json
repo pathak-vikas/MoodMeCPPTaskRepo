@@ -1,0 +1,889 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libabsl_die_if_null.dylib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"absl_cc_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"include_directories",
+			"target_include_directories",
+			"target_compile_features",
+			"_absl_target_compile_features_if_available",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"abseil-cpp/CMake/AbseilHelpers.cmake",
+			"abseil-cpp/absl/log/CMakeLists.txt",
+			"abseil-cpp/absl/strings/CMakeLists.txt",
+			"abseil-cpp/absl/hash/CMakeLists.txt",
+			"abseil-cpp/absl/types/CMakeLists.txt",
+			"abseil-cpp/absl/debugging/CMakeLists.txt",
+			"abseil-cpp/absl/synchronization/CMakeLists.txt",
+			"abseil-cpp/absl/time/CMakeLists.txt",
+			"abseil-cpp/absl/base/CMakeLists.txt",
+			"CMakeLists.txt",
+			"abseil-cpp/CMake/AbseilDll.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 444,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 253,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 330,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 182,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 5
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 396,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 330,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 487,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 10
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 17,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 13
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 163,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 330,
+				"parent" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 296,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 330,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 20
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 115,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 19,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 27
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 66,
+				"parent" : 29
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 30
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 17,
+				"parent" : 32
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 36
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 177,
+				"parent" : 38
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 39
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 1
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 9,
+				"parent" : 42
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 272,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 294,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 599,
+				"parent" : 45
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -fPIC"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wfloat-overflow-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wfloat-zero-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wfor-loop-analysis"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wgnu-redeclared-enum"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Winfinite-recursion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Winvalid-constexpr"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wliteral-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Woverlength-strings"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wself-assign"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wshadow-all"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wshorten-64-to-32"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wstring-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wtautological-overlap-compare"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wtautological-unsigned-zero-compare"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wuninitialized"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wunreachable-code"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wunused-comparison"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wunused-local-typedefs"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wunused-result"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wno-float-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wno-implicit-float-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wno-implicit-int-float-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-Wno-unknown-warning-option"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-DNOMINMAX"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "absl_die_if_null_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 43,
+					"path" : "/Users/vikaspathak/Downloads/MoodMeCPP/include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/usr/local/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/Users/vikaspathak/Downloads/MoodMeCPP/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					46
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_severity::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_raw_logging_internal::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_spinlock_wait::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_malloc_internal::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_base::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_throw_delegate::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_strerror::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_stacktrace::@219259b7d0a2efed4773"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_symbolize::@219259b7d0a2efed4773"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_examine_stack::@219259b7d0a2efed4773"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_debugging_internal::@219259b7d0a2efed4773"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_demangle_internal::@219259b7d0a2efed4773"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_hash::@c99ffac11d44b2bb9e1e"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_city::@c99ffac11d44b2bb9e1e"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_low_level_hash::@c99ffac11d44b2bb9e1e"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_internal_conditions::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_internal_format::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_internal_globals::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_internal_proto::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_internal_message::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_internal_log_sink_set::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_internal_nullguard::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_globals::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_entry::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_log_sink::@b13393f07c262e9eed11"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_int128::@35227d1743c50db2a020"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_strings::@a4cc995c3473953680d9"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_strings_internal::@a4cc995c3473953680d9"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_str_format_internal::@a4cc995c3473953680d9"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_graphcycles_internal::@521f103004ddf07c77e4"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_kernel_timeout_internal::@521f103004ddf07c77e4"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_synchronization::@521f103004ddf07c77e4"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_time::@5957f09260692b46a445"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_civil_time::@5957f09260692b46a445"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_time_zone::@5957f09260692b46a445"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_bad_optional_access::@019a197c0fd06ca84799"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "absl_bad_variant_access::@019a197c0fd06ca84799"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil"
+	},
+	"id" : "absl_die_if_null::@b13393f07c262e9eed11",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/vikaspathak/Downloads/MoodMeCPP/build/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../../lib/libabsl_log_internal_conditions.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../../lib/libabsl_log_internal_message.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_examine_stack.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_log_internal_format.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "../../../lib/libabsl_str_format_internal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_log_internal_proto.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_log_internal_nullguard.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_log_internal_log_sink_set.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_log_internal_globals.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_log_globals.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "../../../lib/libabsl_hash.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "../../../lib/libabsl_city.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "../../../lib/libabsl_bad_optional_access.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "../../../lib/libabsl_bad_variant_access.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "../../../lib/libabsl_low_level_hash.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "../../../lib/libabsl_synchronization.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "../../../lib/libabsl_stacktrace.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "../../../lib/libabsl_symbolize.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "../../../lib/libabsl_debugging_internal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "../../../lib/libabsl_demangle_internal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "../../../lib/libabsl_graphcycles_internal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "../../../lib/libabsl_malloc_internal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "../../../lib/libabsl_kernel_timeout_internal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_log_sink.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_log_entry.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_strerror.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libabsl_time.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "../../../lib/libabsl_civil_time.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "../../../lib/libabsl_time_zone.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker CoreFoundation",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "../../../lib/libabsl_strings.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "../../../lib/libabsl_strings_internal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "../../../lib/libabsl_base.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "../../../lib/libabsl_spinlock_wait.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "../../../lib/libabsl_int128.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "../../../lib/libabsl_throw_delegate.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "../../../lib/libabsl_raw_logging_internal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "../../../lib/libabsl_log_severity.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "absl_die_if_null",
+	"nameOnDisk" : "libabsl_die_if_null.dylib",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/log",
+		"source" : "abseil-cpp/absl/log"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 47,
+			"compileGroupIndex" : 0,
+			"path" : "abseil-cpp/absl/log/die_if_null.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 47,
+			"path" : "abseil-cpp/absl/log/die_if_null.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

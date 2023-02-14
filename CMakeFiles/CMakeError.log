@@ -1,0 +1,25 @@
+Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX17 failed with the following output:
+Change Dir: /Users/vikaspathak/Downloads/MoodMeCPP/CMakeFiles/CMakeScratch/TryCompile-aaYUYb
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bbf90/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bbf90.dir/build.make CMakeFiles/cmTC_bbf90.dir/build
+Building CXX object CMakeFiles/cmTC_bbf90.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DABSL_INTERNAL_AT_LEAST_CXX17  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -std=gnu++14 -MD -MT CMakeFiles/cmTC_bbf90.dir/src.cxx.o -MF CMakeFiles/cmTC_bbf90.dir/src.cxx.o.d -o CMakeFiles/cmTC_bbf90.dir/src.cxx.o -c /Users/vikaspathak/Downloads/MoodMeCPP/CMakeFiles/CMakeScratch/TryCompile-aaYUYb/src.cxx
+/Users/vikaspathak/Downloads/MoodMeCPP/CMakeFiles/CMakeScratch/TryCompile-aaYUYb/src.cxx:6:4: error: "The compiler defaults or is configured for C++ < 17"
+#  error "The compiler defaults or is configured for C++ < 17"
+   ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bbf90.dir/src.cxx.o] Error 1
+make: *** [cmTC_bbf90/fast] Error 2
+
+
+Source file was:
+#ifdef _MSC_VER
+#  if _MSVC_LANG < 201700L
+#    error "The compiler defaults or is configured for C++ < 17"
+#  endif
+#elif __cplusplus < 201700L
+#  error "The compiler defaults or is configured for C++ < 17"
+#endif
+int main() { return 0; }
+
+

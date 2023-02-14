@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -dynamiclib -Wl,-headerpad_max_install_names -o ../../../lib/libabsl_log_severity.dylib -install_name @rpath/libabsl_log_severity.dylib CMakeFiles/absl_log_severity.dir/log_severity.cc.o 
