@@ -15,3 +15,7 @@ add_subdirectory(abseil-cpp)
 add_executable(test_json test_json.cpp)
 target_link_libraries(test_json absl::optional)
 target_link_libraries(test_json absl::strings)
+
+#How to build the project
+#cmake --build . 
+#./test_json <-- this will run the test
